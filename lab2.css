@@ -30,12 +30,8 @@ div p {
   font-size: 16px;
 }
 
-input:checked {
+input[type="checkbox"]:checked {
   background-color: lightblue;
-}
-
-li > a {
-  text-decoration: underline;
 }
 
 li:nth-child(even) {
